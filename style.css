@@ -3,6 +3,14 @@ body {
     flex-direction: column;
 }
 
+header,
+section,
+aside,
+footer {
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -33,7 +41,8 @@ header section {
 }
 
 button {
-    color: #3882F6;
+    background-color: #3882F6;
+    color: #E5E7EB;
 }
 
 h2 {
@@ -51,6 +60,10 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+section figcaption {
+    color: #9fa1a3;
 }
 
 h4 {
